@@ -32,7 +32,7 @@ int maximalNetworkRank(int n, vector<vector<int>>& roads) {
 
 int main()
 {
-    //we can take input from the user also
+    //we can also take input from the user 
     int n=5;
     vector<vector<int>>roads={{0,1},{0,3},{1,2},{1,3},{2,3},{2,4}};
     cout<<maximalNetworkRank(n,roads)<<endl;
