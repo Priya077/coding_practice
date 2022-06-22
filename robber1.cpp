@@ -19,7 +19,7 @@ int rob(vector<int>& nums) {
     }
     return dp[n-1];
 }
-
+//more space optimized method in house robber 2
 int main()
 {
 
